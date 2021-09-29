@@ -99,11 +99,19 @@ body {
 	.intro {
 		padding: 60px 0;
 	}
+
+	.intro h1 {
+		font-size: 2rem;
+	}
+
+	.intro p {
+		font-size: 1.125rem;
+	}
 }
 
 .intro h1 {
 	text-transform: uppercase;
-	font-size: 3em;
+	font-size: 3rem;
 }
 
 .intro h1::after {
