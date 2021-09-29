@@ -1,0 +1,269 @@
+/* Reset */
+
+body, h1, h2, h3, p, ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Georgia, serif;
+	color: #252525;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+@media (max-width: 739px) {
+	.container {
+		flex-direction: column;
+		max-width: 300px;
+	}
+}
+
+/* Menu */
+
+.menu {
+	background: #d6d3c8;
+	padding: 15px 0;
+}
+
+
+
+.menu-nav a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, .8);
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.menu-logo {
+	margin: 0 10px;
+}
+
+.img-logo {
+	width: 100px;
+	height: 100px;
+}
+
+.menu-nav {
+	flex: 1;
+	margin: 0 10px;
+	align-self: center;
+}
+
+.menu-nav ul {
+	float: right;
+	display: flex;
+	list-style: none;
+}
+
+.menu-nav ul li a {
+	padding: 10px;
+}
+
+@media (max-width: 739px) {
+	.menu-nav {
+		margin: 0px;
+	}
+	.menu-logo {
+		text-align: center;
+		margin: 0px;
+	}
+	.menu-nav ul li a {
+		padding-left: 0px;
+		margin: 15px
+	}
+}
+
+
+/* Intro */
+
+.intro {
+	background: url('../img/vecteezy_close-up-engineer-hold-hard-hat-site-construction-background_2989729.jpg') no-repeat  center;
+	opacity: .9;
+	color: #000;
+	background-size: cover;
+	padding: 150px 0;
+	text-align: center;
+}
+
+
+@media (max-width: 739px) {
+	.intro {
+		padding: 60px 0;
+	}
+}
+
+.intro h1 {
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+.intro h1::after {
+	content: '';
+	display: block;
+	width: 20px;
+	height: 4px;
+	background: #fff;
+	margin: 10px auto;
+}
+
+.intro p {
+	font-style: italic;
+	font-size: 1.425em;
+}
+
+/* Serviços */
+
+.servicos {
+	background: #e7e4d8;
+	border-top: 3px solid #d6d3c8;
+	border-bottom: 3px solid #d6d3c8;
+	padding: 60px 0;
+}
+
+.servicos h1 {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 40px ;
+}
+
+.servicos-item {
+	flex: 1;
+	padding: 10px;
+	margin: 0 10px 40px 10px;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.servicos-item h2 {
+	font-size: 2.25em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.servicos-item h2::before {
+	content: '';
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: currentColor;
+	border-radius: 50%;
+	border: 5px solid #e7e4d8;
+	box-shadow: 0 0 0 5px currentColor;
+	margin: 20px auto;
+}
+
+h2.servicos-elaboracao::before {
+	background-image: url('../img/Wavy_Ppl-06_Single-03.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+h2.servicos-treinamento::before {
+	background-image: url('../img/rapel.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+h2.servicos-exames::before {
+	background-image: url('../img/exame.png');
+	background-size: cover;
+	background-position: center;
+}
+
+.servicos-lista {
+	list-style: none;
+}
+.servicos-lista li {
+	margin-bottom: .5rem;
+	font-size: 1.125rem;
+}
+
+
+@media (max-width: 739px) {
+	.servicos-item {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+/* Contato */
+
+.contato {
+	padding: 60px 0;
+}
+
+.contato-item {
+	margin-bottom: 40px;
+}
+
+.contato-mapa, .contato-info {
+	flex: 1;
+	margin: 0 30px;
+}
+
+.contato-mapa iframe {
+	display: block;
+	max-width: 100%;
+}
+
+.contato-item h2 {
+	font-size: 2.25em;
+	margin-bottom: 20px;
+}
+
+.contato-info p {
+	font-size: 1.125em;
+	line-height: 1.4em;
+	max-width: 320px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 739px) {
+	.contato {
+		padding: 30px 0;
+	}
+	.contato-mapa, .contato-info {
+		margin-left: 0px;
+		margin-right: 0px;
+		text-align: center;
+	}
+
+	.contato-info {
+		margin-top: 40px;
+	}
+}
+
+/*Footer*/
+
+.footer {
+	background: #d6d3c8;
+	padding: 40px 0;
+}
+
+.footer p {
+	font-size: 1.125em;
+	font-weight: bolder;
+	line-height: 1.4em;
+	margin: 0 10px;
+	flex: 1;
+}
+
+.footer-img {
+	margin: 0 10px;
+}
+
+@media (max-width: 739px) {
+	.footer-img, .footer p {
+		margin: 10px 0px;
+		text-align: center;
+	}
+}
