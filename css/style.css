@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul {
 }
 
 body {
-	font-family: Georgia, serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #252525;
 }
 
@@ -30,26 +30,20 @@ body {
 /* Menu */
 
 .menu {
-	background: #f5fffb;
-	padding: 15px 0;
+	background: #d6d3c8;
 }
-
-
 
 .menu-nav a {
 	text-decoration: none;
 	color: rgba(0, 0, 0, .8);
 	font-size: 1.5em;
-	font-weight: bolder;
+	font-weight: 500;
 }
 
-.menu-logo {
-	margin: 0 10px;
-}
 
 .img-logo {
 	width: 100px;
-	height: 100px;
+	height: 60px;
 }
 
 .menu-nav {
@@ -59,7 +53,8 @@ body {
 }
 
 .menu-nav ul {
-	float: right;
+	margin-left: 15px;
+	margin-right: 15px;
 	display: flex;
 	list-style: none;
 }
@@ -131,7 +126,7 @@ body {
 /* Serviços */
 
 .servicos {
-	background: #e6fce6;
+	background: #e7e4d8;
 	padding: 60px 0;
 }
 
@@ -147,7 +142,7 @@ body {
 	margin: 0 10px 40px 10px;
 	border: 1px solid transparent;
 	border-radius: 10px;
-	background-color: #f5fffb;
+	background-color: #fff;
 }
 
 .servicos-item h2 {
@@ -206,7 +201,6 @@ h2.servicos-exames::before {
 
 .contato {
 	padding: 60px 0;
-	background-color: #f5fffb;
 }
 
 .contato-item {
@@ -253,7 +247,7 @@ h2.servicos-exames::before {
 /*Footer*/
 
 .footer {
-	background: #f5fffb;
+	background: #d6d3c8;
 	padding: 40px 0;
 }
 
