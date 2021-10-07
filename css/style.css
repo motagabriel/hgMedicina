@@ -30,7 +30,7 @@ body {
 /* Menu */
 
 .menu {
-	background: #d6d3c8;
+	background: #f5fffb;
 	padding: 15px 0;
 }
 
@@ -131,9 +131,7 @@ body {
 /* Serviços */
 
 .servicos {
-	background: #e7e4d8;
-	border-top: 3px solid #d6d3c8;
-	border-bottom: 3px solid #d6d3c8;
+	background: #e6fce6;
 	padding: 60px 0;
 }
 
@@ -147,8 +145,9 @@ body {
 	flex: 1;
 	padding: 10px;
 	margin: 0 10px 40px 10px;
-	border: 1px solid #000;
+	border: 1px solid transparent;
 	border-radius: 10px;
+	background-color: #f5fffb;
 }
 
 .servicos-item h2 {
@@ -207,6 +206,7 @@ h2.servicos-exames::before {
 
 .contato {
 	padding: 60px 0;
+	background-color: #f5fffb;
 }
 
 .contato-item {
@@ -253,7 +253,7 @@ h2.servicos-exames::before {
 /*Footer*/
 
 .footer {
-	background: #d6d3c8;
+	background: #f5fffb;
 	padding: 40px 0;
 }
 
